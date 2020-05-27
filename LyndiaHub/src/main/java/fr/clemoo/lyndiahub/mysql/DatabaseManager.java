@@ -61,7 +61,7 @@ public class DatabaseManager {
 	
 	public boolean hasAccount(UUID uuid) {
 		try {
-			PreparedStatement preparedStatement = connection.prepareStatement("SELECT id FROM players WHERE uuid = ?");
+			PreparedStatement preparedStatement = connection.prepareStatement("SELECT id FROM players WHERE player_uuid = ?");
 			preparedStatement.setString(1, uuid.toString());
 			ResultSet rs = preparedStatement.executeQuery();
 			if(rs.next()) {
