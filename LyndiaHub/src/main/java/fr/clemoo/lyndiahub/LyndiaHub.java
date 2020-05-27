@@ -10,7 +10,7 @@ import fr.clemoo.lyndiahub.listeners.PlayerJoin;
 import fr.clemoo.lyndiahub.mysql.DatabaseManager;
 
 /**
- * 
+ * Copyright (c) undefended
  * @author Clemoo, Unprovided
  *
  */
