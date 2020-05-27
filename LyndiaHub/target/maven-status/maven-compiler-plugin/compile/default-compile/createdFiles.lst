@@ -1,0 +1,7 @@
+fr\clemoo\lyndiahub\LyndiaHub.class
+fr\clemoo\lyndiahub\listeners\PlayerJoin.class
+fr\clemoo\lyndiahub\mysql\DatabaseManager.class
+fr\clemoo\lyndiahub\listeners\PlayerChat$1.class
+fr\clemoo\lyndiahub\listeners\PlayerChat.class
+fr\clemoo\lyndiahub\commands\TestCommand.class
+fr\clemoo\lyndiahub\listeners\PlayerJoin$1.class
