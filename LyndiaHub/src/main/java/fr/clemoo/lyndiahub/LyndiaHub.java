@@ -42,5 +42,9 @@ public class LyndiaHub extends JavaPlugin {
 	public static LyndiaHub getInstance() {
 		return Instance;
 	}
+	
+	public DatabaseManager getDatabaseManager() {
+		return databaseManager;
+	}
 
 }

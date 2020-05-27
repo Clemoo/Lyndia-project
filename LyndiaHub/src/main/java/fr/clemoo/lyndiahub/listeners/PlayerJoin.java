@@ -13,6 +13,7 @@ public class PlayerJoin implements Listener {
 	@EventHandler
 	public void onJoin(PlayerJoinEvent event) {
 		Player player = event.getPlayer();
+		LyndiaHub.getInstance().getDatabaseManager().createAccount(player.getUniqueId());
 		if(player != null) {
 			Bukkit.getScheduler().runTaskLater(LyndiaHub.getInstance(), new Runnable() {
 				
